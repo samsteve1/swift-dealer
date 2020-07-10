@@ -52,3 +52,5 @@ C:\Apps\csharp\vega\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\Syste
 C:\Apps\csharp\vega\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Apps\csharp\vega\obj\Debug\netcoreapp3.1\vega.csproj.CopyComplete
 C:\Apps\csharp\vega\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Apps\csharp\vega\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Apps\csharp\vega\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

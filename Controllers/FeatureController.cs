@@ -13,6 +13,7 @@ namespace vega.Controllers
     {
         private readonly VegaDbContext context;
         private readonly IMapper mapper;
+        
         public FeatureController(VegaDbContext context, IMapper mapper)
         {
             this.mapper = mapper;

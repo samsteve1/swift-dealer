@@ -25,8 +25,8 @@ namespace vega.Migrations
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.Sql("DELETE FROM makes");
-            migrationBuilder.Sql("DELETE FROM models");
+            migrationBuilder.Sql("DELETE FROM makes WHERE Name in ('Toyota', 'Honda', 'Jeep')");
+            migrationBuilder.Sql("DELETE FROM models"); 
         }   
     }
 }

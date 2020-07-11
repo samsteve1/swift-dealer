@@ -9,6 +9,7 @@ using vega.Persistence;
 
 namespace vega.Controllers
 {
+    [Route("/api/features")]
     public class FeatureController : Controller
     {
         private readonly VegaDbContext context;
@@ -21,7 +22,7 @@ namespace vega.Controllers
 
         }
 
-        [HttpGet("/api/features")]
+        [HttpGet]
 
         public async  Task<IEnumerable<FeatureResource>> GetFeatures()
         {

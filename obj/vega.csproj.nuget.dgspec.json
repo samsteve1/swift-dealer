@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Apps\\csharp\\vega\\vega.csproj": {}
+    "c:\\Apps\\csharp\\vega\\vega.csproj": {}
   },
   "projects": {
-    "C:\\Apps\\csharp\\vega\\vega.csproj": {
+    "c:\\Apps\\csharp\\vega\\vega.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Apps\\csharp\\vega\\vega.csproj",
+        "projectUniqueName": "c:\\Apps\\csharp\\vega\\vega.csproj",
         "projectName": "vega",
-        "projectPath": "C:\\Apps\\csharp\\vega\\vega.csproj",
+        "projectPath": "c:\\Apps\\csharp\\vega\\vega.csproj",
         "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Apps\\csharp\\vega\\obj\\",
+        "outputPath": "c:\\Apps\\csharp\\vega\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config"

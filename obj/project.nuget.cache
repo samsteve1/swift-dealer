@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "U7wy/IAkUOico7/7cbjOk+6yDXB7pr7JHJhx0hUNvNY0TrpwLgtf+gY4z3W5nzx/ChTy9CBWEQW1U9CsCn7lbw==",
+  "dgSpecHash": "LbnP9bumVgVlTUqjgb9F6kV6tXgaAEJu6aCIvJIxJTvCKv9CY44+vBfE4BNLyxXsqnpKmbVvdKYl6LS5M++73A==",
   "success": true,
-  "projectFilePath": "C:\\Apps\\csharp\\vega\\vega.csproj",
+  "projectFilePath": "C:\\apps\\csharp\\vega\\vega.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dell\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\dell\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.0.0\\automapper.extensions.microsoft.dependencyinjection.8.0.0.nupkg.sha512",

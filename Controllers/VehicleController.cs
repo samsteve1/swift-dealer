@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
@@ -14,6 +15,14 @@ namespace vega.Controllers
     {
         private readonly IMapper mapper;
         private readonly VegaDbContext context;
+        [HttpGet]
+        public async Task<IActionResult> GetAllVehicles()
+        {
+            var vehicles = await context.Vehicles.ToListAsync();
+
+            var vehicleResources =  mapper.Map<List<Vehicle>, List<VehicleResource>>(vehicles);
+            return Ok(vehicleResources);
+        }
         public VehicleController(IMapper mapper, VegaDbContext context)
         {
             this.context = context;
@@ -78,6 +87,17 @@ namespace vega.Controllers
             context.Remove(vehicle);
             await context.SaveChangesAsync();
             return Ok(id);
+        }
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetVehicle(int id)
+        {
+           var vehicle = await context.Vehicles.Include(v => v.Features).SingleOrDefaultAsync(v => v.Id == id);
+            if(vehicle == null)
+            {
+                return NotFound("Invalid vehicle ID");
+            }
+            var vehicleResource = mapper.Map<Vehicle, VehicleResource>(vehicle);
+            return Ok(vehicleResource);
         }
     }
 }
